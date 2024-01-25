@@ -1,4 +1,11 @@
-# Compositionality
+# # compositionality 1.0
+# An algorithm implementing strong nuclearity
+# For input use relational propositions generated using pycrst
+# Samples appear below
+# Current reference for citing this work
+# Potter, A. (Accepted). An Algorithmic approach to analyzing rhetorical structures. In CODI 2024: 5th Workshop on Computational Approaches to Discourse. 
+
+# Notes
 # no support for multinucs - the criterion is not explicit on this
 
 import sys

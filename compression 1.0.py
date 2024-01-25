@@ -1,4 +1,10 @@
-# compression
+# compression 1.0
+# An algorithm for compressing rhetorical structures
+# For input use relational propositions generated using pycrst
+# Samples appear below
+# Current reference for citing this work
+# Potter, A. (Accepted). An Algorithmic approach to analyzing rhetorical structures. In CODI 2024: 5th Workshop on Computational Approaches to Discourse. 
+
 
 import sys
 
@@ -149,7 +155,7 @@ exp_list = []
 exp_list.append(strip(exp))
 
 def compress(relname, *argv):
-    
+
     if isinstance(argv[0], tuple):          # multinuclear
         mn = '{}{}'.format(relname,argv[0])
         mn = strip(mn)

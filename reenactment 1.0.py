@@ -1,4 +1,10 @@
 ## reenact/replay
+# reenactment 1.0
+# An algorithm for reenacting rhetorical structures
+# For input use relational propositions generated using pycrst
+# Samples appear below
+# Current reference for citing this work
+# Potter, A. (Accepted). An Algorithmic approach to analyzing rhetorical structures. In CODI 2024: 5th Workshop on Computational Approaches to Discourse. 
 
 import sys
 from defaulthandlers import *
@@ -47,6 +53,7 @@ exp = 'concession(condition(2,1),evidence(condition(5,concession(7,6)),antithesi
 
 # GUM_academic_census
 # exp ='organization_heading(1,context_background(context_background(context_background(elaboration_additional(3,2),adversative_concession(adversative_concession(17,18),explanation_evidence(joint_list(attribution_positive(7,mode_means(elaboration_attribute(13,12),same_unit(explanation_evidence(9,8),explanation_evidence(11,10)))),elaboration_attribute(16,explanation_evidence(15,14))),attribution_positive(4,elaboration_additional(6,5))))),explanation_justify(context_background(joint_other(adversative_contrast(context_background(adversative_contrast(explanation_evidence(32,elaboration_attribute(31,30)),elaboration_additional(36,same_unit(elaboration_additional(34,33),35))),evaluation_comment(adversative_concession(45,causal_result(47,46)),causal_cause(37,joint_list(same_unit(explanation_evidence(40,joint_list(38,39)),explanation_evidence(42,41)),explanation_evidence(44,43))))),evaluation_comment(adversative_contrast(explanation_evidence(52,51),causal_result(54,53)),explanation_evidence(50,elaboration_additional(49,48)))),evaluation_comment(organization_preparation(adversative_contrast(60,61),joint_list(explanation_evidence(64,elaboration_attribute(63,62)),explanation_evidence(causal_result(70,mode_means(69,68)),explanation_evidence(67,elaboration_additional(66,65))))),elaboration_additional(same_unit(restatement_partial(57,56),elaboration_additional(59,58)),55))),adversative_contrast(explanation_evidence(25,24),explanation_evidence(29,same_unit(26,context_circumstance(27,28))))),adversative_antithesis(joint_list(causal_result(22,21),23),purpose_attribute(20,19)))),elaboration_additional(organization_preparation(98,joint_sequence(mode_means(100,99),elaboration_additional(joint_sequence(mode_means(joint_sequence(103,elaboration_attribute(explanation_evidence(106,105),104)),102),elaboration_additional(purpose_goal(110,109),elaboration_attribute(108,107))),101))),evaluation_comment(97,elaboration_additional(joint_list(elaboration_additional(mode_means(84,adversative_antithesis(87,mode_means(86,85))),explanation_evidence(83,evaluation_comment(elaboration_attribute(purpose_goal(82,81),80),mode_means(79,78)))),evaluation_comment(purpose_goal(elaboration_attribute(92,91),90),purpose_goal(89,88)),adversative_contrast(93,context_circumstance(94,joint_list(95,96)))),evaluation_comment(joint_list(75,joint_list(76,77)),elaboration_attribute(mode_means(74,73),elaboration_attribute(72,71))))))))'
+
 
 def reenact(rp):
     
